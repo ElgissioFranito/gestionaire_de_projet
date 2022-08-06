@@ -1,0 +1,159 @@
+ * {
+     margin: 0;
+     padding: 0;
+     color: gray;
+ }
+
+ body {
+     background: url(./image/bg.jpg) no-repeat fixed;
+     background-size: cover;
+ }
+
+ .conteneur {
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     flex-direction: column;
+     padding: 0px 20px;
+ }
+
+ header {
+     width: 100vw;
+     height: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .entete {
+     width: 320px;
+     height: 80px;
+     position: relative;
+     background-color: #fff;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     border-radius: 15px;
+ }
+
+ .entete img {
+     height: 60px;
+     margin: 0px;
+     padding: 10px;
+ }
+
+ .entete img:first-child {
+     position: absolute;
+ }
+
+ .entete img:nth-child(2) {
+     position: absolute;
+     left: 60px;
+ }
+
+ .tableau {
+     font-size: 0.7em;
+     background-color: #fff;
+     border: 1px solid grey;
+     border-radius: 10px;
+     border-collapse: collapse;
+     opacity: 0.75;
+     font-family: verdana;
+     width: 1200px;
+ }
+
+ .tete-du-tableau {
+     background-color: #12c0df;
+     font-weight: 600;
+ }
+
+ .tete-du-tableau:hover {
+     background-color: #12c0df;
+     transform: scale(1.0);
+ }
+
+ tr {
+     transition: all -2s ease-in;
+     cursor: pointer;
+     width: 700px;
+     height: 50px0px;
+ }
+
+ tr button {
+     margin: 0;
+     padding: 0;
+     height: 30px;
+     width: 80px;
+     text-align: center;
+     border: 0px;
+     background-color: rgba(0, 157, 255, 0.651);
+ }
+
+ tr,
+ td {
+     padding: 5px;
+     text-align: left;
+     border-bottom: 1px solid rgb(128, 128, 128);
+ }
+
+ tr:hover {
+     background-color: aqua;
+     transform: scale(1.02);
+     box-shadow: 2px 2px 10px black;
+ }
+
+ button {
+     background-color: aqua;
+     color: azure;
+     border-radius: 25px;
+     padding: 14px 110px;
+     margin: 30px;
+     text-align: center;
+     font-family: verdana;
+     cursor: pointer;
+ }
+
+ h2 {
+     font-family: Verdana;
+     color: rgb(56, 241, 232);
+     width: 700px;
+     background-color: rgba(0, 500, 500, 0.6);
+     margin: auto;
+     color: #fff;
+     padding: 10px 0px;
+     text-align: center;
+     border-radius: 20px 20px 0px 0px;
+ }
+
+ .legende {
+     width: 400px;
+     font-size: 20px;
+     color: #fff;
+     padding-top: 20px;
+     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+ }
+
+ .bloc {
+     box-sizing: border-box;
+     background-color: rgba(0, 500, 500, 0.2);
+     width: 700px;
+     margin: auto;
+ }
+
+ .btn-ajout {
+     margin-top: 50px;
+ }
+
+ input {
+     margin-left: 40px;
+     width: 600px;
+     border-radius: 10px;
+     position: relative;
+     line-height: 40px;
+     font-size: 16px;
+ }
+
+ .option {
+     height: 30px;
+     margin-left: 40px;
+     border-radius: 10px;
+ }
